@@ -1,3 +1,7 @@
+## Dynamic ARP Inspection on Cisco Catalyst Switches
+
+---
+
 Dynamic ARP Inspection (DAI) is a security feature that allows you to prevent ARP spoofing attacks on your network. 
 In this blog post, we will go over the steps for configuring DAI on a Cisco switch.
 
