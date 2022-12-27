@@ -1,6 +1,5 @@
----
-title: BDPU Guard
-date: 2022-12-27
+## BDPU Guard on Cisco Catalyst Switches
+
 ---
 
 BPDU Guard is a security feature that prevents unauthorized switches from attaching to your network by disabling the port if a BPDU (Bridge Protocol Data Unit) is received on the port. 
