@@ -85,13 +85,10 @@ To do this, you can use an external tool such as `ping` or `traceroute` to check
 
 Some of the most common causes of NTP issues are:
 
-NTP packets are not received.
-
-NTP packets are received, but are not processed by the NTP process on the IOS.
-
-NTP packets are processed, but erroneous factors or packet data causes the loss of synchronization.
-
-NTP clock-period is manually set.
++ NTP packets are not received.
++ NTP packets are received, but are not processed by the NTP process on the IOS.
++ NTP packets are processed, but erroneous factors or packet data causes the loss of synchronization.
++ NTP clock-period is manually set.
 
 Important debug commands that help isolate the cause of these issues include:
 ```
