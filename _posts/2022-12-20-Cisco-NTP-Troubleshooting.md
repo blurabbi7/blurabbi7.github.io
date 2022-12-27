@@ -39,6 +39,15 @@ reference time is 00000000.00000000 (00:00:00.000 UTC Fri Dec 31 1999)
 clock offset is 0.0000 ms, root delay is 0.00 ms
 root dispersion is 0.00 ms, peer dispersion is 0.00 ms
 ```
+
+Precision is determined automatically and is measured as a power of two. In the example, 2**18 means 2^(-18), or 3.8 microseconds.
+
+Loss of synchronization between NTP peers or between a master and client can be due to a variety of causes. NTP avoids synchronization with a machine whose time might be ambiguous in these ways:
+
+1. NTP never synchronizes to a machine that is not synchronized itself.
+2. NTP compares the time that is reported by several machines and does not synchronize to a machine whose time is significantly different from the others, even if its stratum is lower.
+
+
 If NTP is not enabled, you can enable it by entering the following command:
 
 `ntp enable`
@@ -71,7 +80,30 @@ This will display a list of your interfaces and their status. If an interface is
 Step 5: Check the status of your NTP server.
 
 If you are using an external NTP server, you may want to check the status of the server to ensure it is functioning properly. 
-To do this, you can use an external tool such as ping or traceroute to check the server's connectivity.
+To do this, you can use an external tool such as `ping` or `traceroute` to check the server's connectivity.
+
+
+Some of the most common causes of NTP issues are:
+
+NTP packets are not received.
+
+NTP packets are received, but are not processed by the NTP process on the IOS.
+
+NTP packets are processed, but erroneous factors or packet data causes the loss of synchronization.
+
+NTP clock-period is manually set.
+
+Important debug commands that help isolate the cause of these issues include:
+```
+debug ip packets <acl>
+debug ntp packets
+debug ntp validity
+debug ntp sync
+debug ntp events
+```
+For Cisco Unified Communication appliances use `utils ntp status` as in image below:
+
+![This is an image](https://community.cisco.com/t5/image/serverpage/image-id/6177iAE585E872DCBAD36/image-size/large?v=v2&px=999)
 
 By following these steps, you should be able to troubleshoot most NTP issues on Cisco IOS devices. 
 If you are still experiencing issues after trying these steps, you may want to seek further assistance from your network administrator or a technical support representative.
