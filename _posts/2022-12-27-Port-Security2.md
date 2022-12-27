@@ -21,17 +21,17 @@ Step 2: Specify the maximum number of MAC addresses allowed on the port.
 
 By default, port security allows only one MAC address on a port. However, you can specify a higher number if needed. To do this, enter the following command:
 
-switchport port-security maximum number_of_addresses
+`switchport port-security maximum number_of_addresses`
 
 For example, to allow up to three MAC addresses on interface GigabitEthernet0/1, you would enter the following command:
 
-switchport port-security maximum 3
+`switchport port-security maximum 3`
 
 Step 3: Specify the MAC addresses that are allowed on the port.
 
 You can specify the MAC addresses that are allowed on the port by entering the following command:
 
-switchport port-security mac-address MAC_address
+`switchport port-security mac-address MAC_address`
 
 For example, to allow the MAC addresses 00:00:00:00:00:01 and 00:00:00:00:00:02 on interface GigabitEthernet0/1, you would enter the following commands:
 ```
