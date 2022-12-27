@@ -1,6 +1,5 @@
----
-title: "port Security"
-date: 2022-12-27
+## Port Security on Cisco Catalyst Switches
+
 ---
 
 Port security is a security feature that allows you to specify the MAC addresses that are allowed to access a particular port on a Cisco switch. 
