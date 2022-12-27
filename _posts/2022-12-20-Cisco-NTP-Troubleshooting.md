@@ -105,5 +105,5 @@ For Cisco Unified Communication appliances use `utils ntp status` as in image be
 By following these steps, you should be able to troubleshoot most NTP issues on Cisco IOS devices. 
 If you are still experiencing issues after trying these steps, you may want to seek further assistance from your network administrator or a technical support representative.
 
-REFERENCE:
-https://www.cisco.com/c/en/us/support/docs/ip/network-time-protocol-ntp/116161-trouble-ntp-00.html
+Reference:
+[Cisco - Network Time Protocol](https://www.cisco.com/c/en/us/support/docs/ip/network-time-protocol-ntp/116161-trouble-ntp-00.html).
