@@ -1,11 +1,12 @@
-## Port Security on Cisco Catalyst Switches
+## The Importance of Port Security on Cisco Catalyst Switches
 
 ---
 
+Ensuring the security of your network is essential for the success of any organization. One way to ensure your network is safe and secure is to utilize port security on Cisco Catalyst switches.
 Port security is a security feature that allows you to specify the MAC addresses that are allowed to access a particular port on a Cisco switch. 
 This can be useful in preventing unauthorized access to your network and mitigating security risks. In this blog post, we will go over the steps for configuring port security on a Cisco switch.
 
-Step 1: Enable port security on the desired port.
+### Step 1: Enable port security on the desired port.
 
 To enable port security on a particular port, enter the following command:
 ```
@@ -17,7 +18,7 @@ For example, to enable port security on interface GigabitEthernet0/1, you would 
 interface GigabitEthernet0/1
 switchport port-security
 ```
-Step 2: Specify the maximum number of MAC addresses allowed on the port.
+### Step 2: Specify the maximum number of MAC addresses allowed on the port.
 
 By default, port security allows only one MAC address on a port. However, you can specify a higher number if needed. To do this, enter the following command:
 
@@ -27,7 +28,7 @@ For example, to allow up to three MAC addresses on interface GigabitEthernet0/1,
 
 `switchport port-security maximum 3`
 
-Step 3: Specify the MAC addresses that are allowed on the port.
+### Step 3: Specify the MAC addresses that are allowed on the port.
 
 You can specify the MAC addresses that are allowed on the port by entering the following command:
 
@@ -38,7 +39,7 @@ For example, to allow the MAC addresses 00:00:00:00:00:01 and 00:00:00:00:00:02 
 switchport port-security mac-address 00:00:00:00:00:01
 switchport port-security mac-address 00:00:00:00:00:02
 ```
-Step 4: Configure the port security violation action.
+### Step 4: Configure the port security violation action.
 
 When a device with an unauthorized MAC address attempts to access the port, a port security violation occurs. 
 You can specify the action that should be taken when a violation occurs by entering the following command:
@@ -52,7 +53,7 @@ For example, to shut down the port when a violation occurs on interface GigabitE
 
 `switchport port-security violation shutdown`
 
-Step 5: Save the configuration.
+### Step 5: Save the configuration.
 
 To save the port security configuration, enter the following command:
 
