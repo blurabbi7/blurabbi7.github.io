@@ -11,7 +11,7 @@ It is an important step in securing any network or device, as it helps to minimi
 
 There are several steps you can take to harden Cisco Catalyst switches:
 
-1. Enable security features: Make sure you have enabled security features such as access control lists (ACLs), port security, and private VLANs to restrict unauthorized access to your network.
++ Enable security features: Make sure you have enabled security features such as access control lists (ACLs), port security, and private VLANs to restrict unauthorized access to your network.
 To create an ACL that allows only certain IP addresses to access the switch, use the following command:
 ```
 switch(config)# ip access-list <name>
@@ -19,7 +19,7 @@ switch(config-acl)# permit <IP address>
 ```
 
 
-2. Use strong passwords: Use strong, complex passwords for all user accounts on the switch and enable password aging to regularly change passwords.
++ Use strong passwords: Use strong, complex passwords for all user accounts on the switch and enable password aging to regularly change passwords.
 To create a local user account with a specific password, use the following command:
 
 `switch(config)# username <username> password <password>`
@@ -29,7 +29,7 @@ To enable password encryption, you will need to enter this command in global con
 `switch(config)# service password-encryption`
 Once password encryption is enabled, all passwords that you enter into the configuration will be automatically encrypted and stored in the configuration file.
 
-3. Configure security protocols: Configure security protocols such as SSH, TLS, and IPSec to encrypt communication between devices and protect against network attacks.
++ Configure security protocols: Configure security protocols such as SSH, TLS, and IPSec to encrypt communication between devices and protect against network attacks.
 Here are all of the commands that you need to use to enable SSH on a Cisco device:
 
 ```
@@ -43,24 +43,24 @@ ip ssh server
 ip ssh port port
 ```
 
-4. Enable security logging: Enable security logging on the switch to record any security-related events and help identify potential threats.
++ Enable security logging: Enable security logging on the switch to record any security-related events and help identify potential threats.
 To enable security logging on the switch, use the following command:
 
 `switch(config)# logging on`
 
 
-5. Update the switch firmware: Keep the switch firmware up to date to ensure that it has the latest security patches and fixes.
++ Update the switch firmware: Keep the switch firmware up to date to ensure that it has the latest security patches and fixes.
 On Cisco Nexus Devices, you can use the following command:
 
 `switch# install all nxos <image file name>`
 
-6. Monitor the network: Regularly monitor your network for security threats and suspicious activity.
++ Monitor the network: Regularly monitor your network for security threats and suspicious activity.
 To monitor a network using Simple Network Management Protocol (SNMP), you will need to perform the following steps:
 
 Configure the device to act as an SNMP agent. To do this, you will need to use the following commands:
 `snmp-server community community-string ro`
 
-7. Use VLANs: Use VLANs to segment your network and isolate different network segments from each other. This can help prevent unauthorized access and limit the impact of a security breach.
++ Use VLANs: Use VLANs to segment your network and isolate different network segments from each other. This can help prevent unauthorized access and limit the impact of a security breach.
 Create a VLAN: To create a VLAN, you can use the following command:
 ```
 switch(config)# vlan <VLAN ID>
@@ -80,7 +80,7 @@ Configure VLAN tagging: To configure VLAN tagging on a trunk link, use the follo
 `switch(config-if)# switchport trunk allowed vlan <VLAN ID>`
 
 
-8. Use network access control: Use network access control technologies such as 802.1X and MAC filtering to control which devices are allowed to access your network.
++ Use network access control: Use network access control technologies such as 802.1X and MAC filtering to control which devices are allowed to access your network.
 To configure 802.1X authentication on a Cisco device, you will need to use the "dot1x" command. Here is an example of how you might use this command to configure 802.1X authentication on a switch:
 ```
 switch# configure terminal
@@ -92,9 +92,9 @@ switch(config-if)# end
 You will also need to configure the device to use a RADIUS or TACACS+ server to authenticate users. To do this, you can use the "radius-server" or "tacacs-server" command, as follows:
 `switch(config)# radius-server host hostname key key`
 
-9. Secure management interfaces: Secure the switch's management interfaces by limiting access to authorized personnel only and using strong passwords.
++ Secure management interfaces: Secure the switch's management interfaces by limiting access to authorized personnel only and using strong passwords.
 
-10. Use Network Address Translation (NAT): Use NAT to hide the IP addresses of internal devices from external networks, which can help protect against network attacks.
++ Use Network Address Translation (NAT): Use NAT to hide the IP addresses of internal devices from external networks, which can help protect against network attacks.
 
 By following these best practices, you can help protect your Cisco Catalyst switches and the networks they support from security threats.
 
