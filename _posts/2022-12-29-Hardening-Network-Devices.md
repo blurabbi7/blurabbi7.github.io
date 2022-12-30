@@ -1,10 +1,10 @@
 ## 10 Tips For Hardening Your Network Devices
 ---
 
-Hardening is the process of securing a computer system or network by reducing its vulnerabilities to attacks. 
+When we think of hardening we are really thinking of a process of securing a computer system or network by reducing its vulnerabilities to attacks. 
 This can be done through a variety of measures, including enabling security features, configuring security protocols, updating software and firmware, and implementing best practices for password management and access control. 
 Hardening a system can help protect against security threats such as malware, viruses, hacking, and unauthorized access. 
-It is an important step in securing any network or device, as it helps to minimize the potential for security breaches and reduce the risk of data loss or damage.
+So If you are interested to see how it is done, please do read below!
 
 [![3573406.jpg](https://i.postimg.cc/wTX6fNJy/3573406.jpg)](https://postimg.cc/3dw5WdtY)
 <a href="https://www.freepik.com/free-vector/security-concept-illustration_7191133.htm#query=security&position=43&from_view=keyword">Image by storyset</a> on Freepik
