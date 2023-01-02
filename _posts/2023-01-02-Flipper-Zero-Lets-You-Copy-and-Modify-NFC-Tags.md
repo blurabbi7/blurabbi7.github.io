@@ -56,7 +56,7 @@ If you are not willing to invest money into this great versatile device here is 
 https://www.aliexpress.com/item/1005004091357735.html
 It comes with NFC Copy software that enables you to copy, save and write tags.
 
-[![NFC-Copy.png](https://i.postimg.cc/j232TpnS/NFC-Copy.png)](https://postimg.cc/hQxcb30k)
+[![NFC-Copy.jpg](https://i.postimg.cc/ZKnqkG1y/NFC-Copy.jpg)](https://postimg.cc/RNrmKDCM)
 
 Support is slightly limited but here are some of the tags that are: Em4100, Tk4100, 8800, 5200, Em4305, T5577, 8265
 
