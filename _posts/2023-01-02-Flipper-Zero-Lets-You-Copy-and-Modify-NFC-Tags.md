@@ -46,7 +46,7 @@ The next step is to use the NFC Magic tool to write a suitable tag.
 + Select the Write Gen1A option and find the saved tag in the NFC folder
 + Select Continue using the central button
 + Apply the Card to the back of the Flipper
-+ And viola you have successfully cloned your first NFC tag!
++ And viola you have successfully cloned your first NFC tag! 😄
 
 [![ezgif-4-3822c3ee0e.gif](https://i.postimg.cc/rpRmkZq8/ezgif-4-3822c3ee0e.gif)](https://postimg.cc/CZYYCNZt)
 
