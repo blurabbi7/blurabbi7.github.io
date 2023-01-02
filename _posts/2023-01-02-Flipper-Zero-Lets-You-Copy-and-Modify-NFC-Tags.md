@@ -26,31 +26,31 @@ One of the key features of the NFC Magic tool is its ability to write NFC tags. 
 
 Flipper Zero is easy to use and requires almost no technical expertise. It is a valuable tool for anyone looking to customize and enhance the functionality of NFC tags.
 To make an NFC clone use the native NFC tool to save the tag.
-+ From the main menu selct NFC
-+ Select Read option
-+ Move NFC tag to back of the Flipper Zero
-+ Click right arrow to select more and then save with unique name
++ From the main menu select the NFC
++ Select the Read option
++ Move the NFC tag to the back of the Flipper Zero
++ Click the right arrow to select more and then save with the unique name
 
-You can observe animation steps below:
+You can observe the animation steps below:
 
 [![ezgif-com-gif-maker-1.gif](https://i.postimg.cc/9QrXdgRG/ezgif-com-gif-maker-1.gif)](https://postimg.cc/BjfGsgC6)
 
 The next step is to use the NFC Magic tool to write a suitable tag.
 
-+ Clck on down arrow to enter the browser menu
++ Click on the down arrow to enter the browser menu
 + Navigate to Apps Folder
 + Navigate to Tools
 + Select Magic NFC 
-+ Select Write Gen1A option and find saved tag in NFC folder
-+ Select Continue using central button
-+ Apply Card to the back of the Flipper
-+ And viola you have succesfully cloned your first NFC tag!
++ Select the Write Gen1A option and find the saved tag in the NFC folder
++ Select Continue using the central button
++ Apply the Card to the back of the Flipper
++ And viola you have successfully cloned your first NFC tag!
 
 [![ezgif-4-3822c3ee0e.gif](https://i.postimg.cc/rpRmkZq8/ezgif-4-3822c3ee0e.gif)](https://postimg.cc/CZYYCNZt)
 
 In a few easy steps, your new tag is ready to be used!
 
-If you are not willing to invest money into this great versitile device here is another example using a cheap clone from AliExpress and a PC.
+If you are not willing to invest money into this great versatile device here is another example using a cheap clone from AliExpress and a PC.
 https://www.aliexpress.com/item/1005004091357735.html
 It comes with NFC Copy software that enables you to copy, save and write tags.
 
@@ -58,4 +58,4 @@ It comes with NFC Copy software that enables you to copy, save and write tags.
 
 Support is slightly limited but here are some of the tags that are: Em4100, Tk4100, 8800, 5200, Em4305, T5577, 8265
 
-As you have observed it is increasingly easy to clone tags in a matter of seconds, so it is important that we are mindful of where we store our tags and to keep them safe and out of reach from a potential threat.
+As you have observed it is increasingly easy to clone tags in a matter of seconds, so it is extremely important that we are mindful of where we store our tags and to keep them safe and out of reach from a potential threat.
