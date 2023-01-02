@@ -3,7 +3,7 @@
 
 As a pentester, having the ability to read, write, and clone NFC tags can be a valuable tool in your arsenal. That's where the NFC cloner comes in. 
 This device allows you to easily manipulate NFC tags to perform a variety of tasks, from automating processes to accessing secure information.
-Flipper Zero opens up a whole new world of possibilities for pentesters. https://flipperzero.one/
+Flipper Zero opens up a whole new world of possibilities for pentesters. [flipperzero.one](https://flipperzero.one/)
 
 With the ability to copy and modify NFC tags, you can customize their functionality to fit your needs and use them in your testing. 
 Whether you're looking to automate tasks or gain access to restricted areas, Flipper Zero has you covered.
@@ -22,7 +22,7 @@ Many different types of NFC tags are available, each with unique capabilities. S
 ### How to write NFC tags using Flipper Zero?
 ---
 
-To use Flipper Zero, you simply place an NFC tag near the device and use the accompanying app to read and modify the data stored on the tag. The app allows you to view the data on the tag and make changes as needed. You can also use Flipper Zero to create new NFC tags by copying the data from an existing tag and saving it to a blank tag using the NFC magic tool available from unleashed firmware: https://github.com/DarkFlippers/unleashed-firmware
+To use Flipper Zero, you simply place an NFC tag near the device and use the accompanying app to read and modify the data stored on the tag. The app allows you to view the data on the tag and make changes as needed. You can also use Flipper Zero to create new NFC tags by copying the data from an existing tag and saving it to a blank tag using the NFC magic tool available from unleashed firmware: [unleashed-firmware](https://github.com/DarkFlippers/unleashed-firmware)
 
 One of the key features of the NFC Magic tool is its ability to write NFC tags. This means that you can create multiple copies of an NFC tag with the same data, allowing you to use the same tag for multiple purposes or share it with others.
 
@@ -53,7 +53,7 @@ The next step is to use the NFC Magic tool to write a suitable tag.
 In a few easy steps, your new tag is ready to be used!
 
 If you are not willing to invest money into this great versatile device here is another example using a cheap clone from AliExpress and a PC.
-https://www.aliexpress.com/item/1005004091357735.html
+[NFC Copy Device](https://www.aliexpress.com/item/1005004091357735.html)
 It comes with NFC Copy software that enables you to copy, save and write tags.
 
 [![NFC-Copy.jpg](https://i.postimg.cc/ZKnqkG1y/NFC-Copy.jpg)](https://postimg.cc/RNrmKDCM)
@@ -62,4 +62,4 @@ Support is slightly limited but here are some of the tags that are: Em4100, Tk41
 
 As you have observed it is increasingly easy to clone tags in a matter of seconds, so it is extremely important that we are mindful of where we store our tags and to keep them safe and out of reach from a potential threat.
 
-If you are finding this helpful, please consider buying me a coffee ☕ Click on this link: https://www.buymeacoffee.com/blurabbi7
+If you are finding this helpful, please consider buying me a coffee ☕ Click on this link: [buymeacoffee.com/blurabbi7](https://www.buymeacoffee.com/blurabbi7)
