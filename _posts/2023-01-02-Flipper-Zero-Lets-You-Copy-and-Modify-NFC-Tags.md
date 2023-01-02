@@ -61,3 +61,5 @@ It comes with NFC Copy software that enables you to copy, save and write tags.
 Support is slightly limited but here are some of the tags that are: Em4100, Tk4100, 8800, 5200, Em4305, T5577, 8265
 
 As you have observed it is increasingly easy to clone tags in a matter of seconds, so it is extremely important that we are mindful of where we store our tags and to keep them safe and out of reach from a potential threat.
+
+If you are finding this helpfull, please consider buying me a coffee ☕ Click on this link: https://www.buymeacoffee.com/blurabbi7
