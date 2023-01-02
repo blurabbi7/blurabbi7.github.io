@@ -9,7 +9,7 @@ With the ability to copy and modify NFC tags, you can customize their functional
 Whether you're looking to automate tasks or gain access to restricted areas, Flipper Zero has you covered.
 In this blog post, we will delve into the capabilities of Flipper Zero and how it can be used by pentesters to improve their efficiency and effectiveness.
 
-[![321915798-605132928284724-612691013621009409-n.jpg](https://i.postimg.cc/Hs6JQPz2/321915798-605132928284724-612691013621009409-n.jpg)](https://postimg.cc/Xpy7WLTG)
+[![20230102-145026.jpg](https://i.postimg.cc/50WHbswW/20230102-145026.jpg)](https://postimg.cc/941XBt8L)
 
 ### What are NFC tags?
 ---
