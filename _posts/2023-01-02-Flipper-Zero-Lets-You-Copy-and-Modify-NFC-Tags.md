@@ -7,7 +7,7 @@ Flipper Zero opens up a whole new world of possibilities for pentesters. [flippe
 
 With the ability to copy and modify NFC tags, you can customize their functionality to fit your needs and use them in your testing. 
 Whether you're looking to automate tasks or gain access to restricted areas, Flipper Zero has you covered.
-In this blog post, we will delve into the capabilities of Flipper Zero and how it can be used by pentesters to improve their efficiency and effectiveness.
+In this blog post, we will delve into the capabilities of Flipper Zero and how it can be used by pentesters to clone, save and write NFC tags.
 
 [![20230102-145026.jpg](https://i.postimg.cc/50WHbswW/20230102-145026.jpg)](https://postimg.cc/941XBt8L)
 
